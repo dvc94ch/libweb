@@ -1,3 +1,4 @@
+/// Outputs a message to the web console.
 #[macro_export]
 macro_rules! console_log {
     ($($arg: tt)*) => (
@@ -7,6 +8,7 @@ macro_rules! console_log {
     )
 }
 
+/// Outputs an error message to the web console.
 #[macro_export]
 macro_rules! console_error {
     ($($arg: tt)*) => (
